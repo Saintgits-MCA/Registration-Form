@@ -17,7 +17,7 @@
       function validate1()
       {
         var mail=document.getElementById("mail").value;
-        regform=/^[a-z0-9]+.\@gmail\.com$/;
+        regform=/^[a-z0-9]+[.]*\@gmail\.com$/;
        regformd=regform.test(mail);
        if(regformd==false)
        {
